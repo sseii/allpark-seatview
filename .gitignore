@@ -1,0 +1,25 @@
+# 비밀 정보 (절대 올리지 않기)
+keys.json
+.env
+*.env
+
+# 원천·대용량 데이터 (공유 드라이브로 공유)
+scripts/pages/
+scripts/data/
+analysis/raw/
+*.csv
+*.zip
+*.dae
+*.skp
+*.e57
+*.blend
+*.blend1
+
+# 개발 환경
+node_modules/
+web/dist/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
